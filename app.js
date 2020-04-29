@@ -44,8 +44,8 @@ class Expense extends Transaction {
 }
 let incomeArray = [];
 let expenseArray = [];
-let incometotal = 0;
-let expensetotal = 0;
+let incometotal;
+let expensetotal;
 
 addtransaction.addEventListener("click", function () {
   let description = document.getElementsByClassName(
